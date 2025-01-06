@@ -225,7 +225,7 @@ if ($result_user && $result_user->num_rows > 0) {
                           <td><?= $row["nama_lengkap"]; ?></td>
                           <td>
                             <a href="detailuser.php?id=<?= $row['id'] ?>" class="btn btn-info"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-                            <a href="hapususer.php?id=<?= $row['id']; ?>" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                            <a href="hapususer.php?id=<?= $row['id']; ?>" class="btn btn-danger" onclick="return confirm('yakin hapus user ini?');"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                           </td>
                         </tr>
                         <?php $no++; ?>
