@@ -162,7 +162,6 @@ if (!isset($_SESSION['username'])) {
                               <label for="file_materi">File Materi</label>
                               <input type="file" class="form-control" id="file_materi" name="file_materi" accept=".pdf, .doc, .docx" required>
                             </div>
-
                             <div class="form-group">
                               <label for="kursus">kursus</label>
                               <select id="kursus" class="form-control" name="kursus" required>
@@ -215,19 +214,26 @@ if (!isset($_SESSION['username'])) {
                           <td><?= $row["nama_materi"]; ?></td>
                           <td><?= $row["deskripsi_materi"]; ?></td>
                           <td>
-                            <a href="uploads/<?= $row['file_materi']; ?>" target="_blank"><?= $row['file_materi']; ?></a>
+                          <a href="uploads/<?= $row['file_materi']; ?>" target="_blank"><?= $row['file_materi']; ?></a>
                           </td>
 
                           <td>
-                            <a href="detailmateri.php?id_materi=<?= $row["id_materi"] ?>" class="btn btn-info"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-                            <a href="" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                              <a href="detailmateri.php?id_materi=<?= $row["id_materi"] ?>" class="btn btn-info">
+                              <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            </a>
+                              <a href="hapusmateri.php?id_materi=<?= $row["id_materi"] ?>" 
+                                class="btn btn-danger" 
+                                onclick="return confirm('Yakin ingin menghapus data ini?');">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                              </a>
+                          </td>
+
                           </td>
                         </tr>
                         <?php $no++; ?>
                       <?php endwhile; ?>
                     </tbody>
                   </table>
-
                 </div>
               </div>
             </div>
@@ -258,20 +264,20 @@ if (!isset($_SESSION['username'])) {
   <script src="build/js/custom.min.js"></script>
 
   <script>
-    // Validasi file yang diunggah
-    document.getElementById("file_materi").addEventListener("change", function() {
-      // Daftar ekstensi file yang diizinkan
-      const allowedExtensions = ["pdf", "doc", "docx"];
-      // Ambil ekstensi file yang diunggah
-      const fileExtension = this.value.split(".").pop().toLowerCase();
+  // Validasi file yang diunggah
+  document.getElementById("file_materi").addEventListener("change", function () {
+    // Daftar ekstensi file yang diizinkan
+    const allowedExtensions = ["pdf", "doc", "docx"];
+    // Ambil ekstensi file yang diunggah
+    const fileExtension = this.value.split(".").pop().toLowerCase();
 
-      // Periksa apakah ekstensi file termasuk dalam daftar yang diizinkan
-      if (!allowedExtensions.includes(fileExtension)) {
-        alert("Hanya file dengan format PDF, DOC, atau DOCX yang diizinkan!");
-        this.value = ""; // Reset input file
-      }
-    });
-  </script>
+    // Periksa apakah ekstensi file termasuk dalam daftar yang diizinkan
+    if (!allowedExtensions.includes(fileExtension)) {
+      alert("Hanya file dengan format PDF, DOC, atau DOCX yang diizinkan!");
+      this.value = ""; // Reset input file
+    }
+  });
+</script>
 
 </body>
 
