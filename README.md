@@ -82,8 +82,29 @@ Class Diagram :
 3. Class materi 
 4. Class kategori
 
-
+Class Diagram :
 ![image](https://github.com/user-attachments/assets/d8575bf0-5983-47e7-8efc-a619f06b8b57)
+
+Database :
+![Screenshot 2025-01-08 231013 1](https://github.com/user-attachments/assets/941854f1-1012-48dd-9f2c-8f65ee8c3fa6)
+
+1.Database tuser :
+![file_2025-01-08_16 14 33 1](https://github.com/user-attachments/assets/fac6bbc7-cb6d-411d-9590-0c7ff4970254)
+
+2.Database tkursus :
+![file_2025-01-08_16 17 03 1](https://github.com/user-attachments/assets/c379d27a-f0c5-4c24-93a7-db7ea50d1d27)
+
+3.Database tmateri : 
+![file_2025-01-08_16 19 15 1](https://github.com/user-attachments/assets/74e4a447-b827-4e8b-97bd-194d1425504c)
+
+4.Database tkategori :
+![file_2025-01-08_16 21 49 1](https://github.com/user-attachments/assets/ee7aaa97-d843-4768-8ee3-916fa24ba29b)
+
+
+
+
+
+
 
 
 
