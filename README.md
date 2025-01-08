@@ -16,3 +16,46 @@ Fitur Utama Aplikasi EduSkill
 > Materi
 > Kategori
 > User
+# Aplikasi EduSkill
+Kelompok 1 (TI.23.B2) Rekayasa Perangkat Lunak
+Deskripsi Projek
+> Aplikasi Eduskill ini merupakan aplikasi yang  menyediakan berbagai macam kursus dan pelatihan online dalam berbagai bidang seperti teknologi informasi
+
+Fitur Utama Aplikasi EduSkill
+
+
+> Kursus
+> Materi
+> Kategori
+> User
+> Membuka file pdf
+
+
+   **Alasan mengapa menggunakan Agile Development dalam 
+Pengembanganya
+**
+• Alasan :  
+Metodologi Agile dipilih karena memberikan kerangka kerja yang fleksibel, responsif, 
+kolaboratif, dan efisien. Hal ini mendukung pengembangan fitur utama pada Eduskill, seperti 
+file course online yang interaktif, sehingga platform dapat menjawab tantangan kesenjangan 
+keterampilan digital antara dunia pendidikan dan kebutuhan industri. 
+Berikut adalah alasan mengapa Agile dipilih dalam konteks proyek ini: 
+1. Fleksibilitas dalam Pengembangan 
+a. 
+Agile memberikan pendekatan iteratif dan adaptif, yang sangat cocok untuk 
+pengembangan perangkat lunak di lingkungan yang terus berubah, seperti teknologi 
+pendidikan (EdTech). 
+b. Dengan menggunakan Agile, tim dapat merespons dengan cepat perubahan kebutuhan 
+pengguna, tren teknologi baru, dan masukan selama proses pengembangan. 
+2. Peningkatan Kualitas Produk 
+a. 
+Agile memungkinkan pembagian pekerjaan menjadi iterasi kecil atau sprint. Hal ini 
+memudahkan pengujian dan peningkatan kualitas secara bertahap. 
+b. File materi seperti course online dapat diuji dan ditingkatkan pada setiap iterasi, 
+sehingga menghasilkan pembelajaran yang lebih stabil dan berkualitas. 
+3.  Kolaborasi Tim yang Efektif 
+a. 
+Agile mendorong kolaborasi intensif antara anggota tim melalui pertemuan seperti 
+meetings. 
+b. Peran Owner (PO),  dan Developer didefinisikan dengan jelas, menciptakan alur kerja 
+yang terorganisir dan transparan.
