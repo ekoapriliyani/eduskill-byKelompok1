@@ -1,4 +1,4 @@
-# Aplikasi EduSkill
+# Aplikasi EduSkill 
 Kelompok 1 (TI.23.B2) Rekayasa Perangkat Lunak
 Anggota :
 - Mei Rahmawati (312310056)
@@ -7,34 +7,7 @@ Anggota :
 - Didi Nugraha (312310530)
 - Rifqi Bayu (312310628)
   
-# Deskripsi Projek
-> Aplikasi Eduskill ini merupakan aplikasi yang  menyediakan berbagai macam kursus dan pelatihan online dalam berbagai bidang seperti teknologi informasi
-Fitur Utama Aplikasi EduSkill
-
-
-> Kursus
-> Materi
-> Kategori
-> User
-
-# Aplikasi EduSkill
-Kelompok 1 (TI.23.B2) Rekayasa Perangkat Lunak
-Deskripsi Projek
-> Aplikasi Eduskill ini merupakan aplikasi yang  menyediakan berbagai macam kursus dan pelatihan online dalam berbagai bidang seperti teknologi informasi
-
-Fitur Utama Aplikasi EduSkill
-
-
-> Kursus
-> Materi
-> Kategori
-> User
-> Membuka file pdf
-
-I. Alasan mengapa menggunakan Agile Development dalam 
-Pengembanganya
-
-• Alasan :  
+## Alasan mengapa menggunakan Agile Development dalam Pengembanganya
 Metodologi Agile dipilih karena memberikan kerangka kerja yang fleksibel, responsif, 
 kolaboratif, dan efisien. Hal ini mendukung pengembangan fitur utama pada Eduskill, seperti 
 file course online yang interaktif, sehingga platform dapat menjawab tantangan kesenjangan 
@@ -73,38 +46,38 @@ meetings.
 yang terorganisir dan transparan.
 
 
+## CLASS DIAGRAM
 
+![WhatsApp Image 2025-01-09 at 11 50 57_c6e16117](https://github.com/user-attachments/assets/d64ef8b0-1996-4c77-9562-926e8b4a71a6)
 
-II . Buat Class Digram dan Databasenya
-Class Diagram : 
-1. Class tuser : untuk masuk (menu login). 
-2. Class tkursus 
-3. Class materi 
-4. Class kategori
+## DATABASE
+database name : db_eduskill
+![image](https://github.com/user-attachments/assets/4047b44c-26e9-4bda-b1e6-4d8a734c39ea)
 
-Class Diagram :
-![image](https://github.com/user-attachments/assets/d8575bf0-5983-47e7-8efc-a619f06b8b57)
-
-Database :
-![Screenshot 2025-01-08 231013 1](https://github.com/user-attachments/assets/941854f1-1012-48dd-9f2c-8f65ee8c3fa6)
-
-1.Database tuser :
+1.table tuser :
 ![file_2025-01-08_16 14 33 1](https://github.com/user-attachments/assets/fac6bbc7-cb6d-411d-9590-0c7ff4970254)
 
-2.Database tkursus :
+2.table tkursus :
 ![file_2025-01-08_16 17 03 1](https://github.com/user-attachments/assets/c379d27a-f0c5-4c24-93a7-db7ea50d1d27)
 
-3.Database tmateri : 
+3.table tmateri : 
 ![file_2025-01-08_16 19 15 1](https://github.com/user-attachments/assets/74e4a447-b827-4e8b-97bd-194d1425504c)
 
-4.Database tkategori :
+4.table tkategori :
 ![file_2025-01-08_16 21 49 1](https://github.com/user-attachments/assets/ee7aaa97-d843-4768-8ee3-916fa24ba29b)
 
 
+## RELASI ANTAR TABLE DATABASE
 
+![image](https://github.com/user-attachments/assets/d8575bf0-5983-47e7-8efc-a619f06b8b57)
 
+## Instalasi
+- untuk menjalankan aplikasi ini silahkan _clone_ repositori berikut :
+```bash
+https://github.com/ekoapriliyani/eduskill-byKelompok1.git
+```
 
+- import database ```db_eduskill.sql``` ke phpmyadmin
 
-
-
-
+- pastikan direktori aplikasi berada di ```C:\xampp\htdocs```
+- buka browser, kunjungi URL ```localhost/eduskill-byKelompok1```
