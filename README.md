@@ -46,11 +46,11 @@ meetings.
 yang terorganisir dan transparan.
 
 
-## CLASS DIAGRAM
+## Class Diagram
 
 ![WhatsApp Image 2025-01-09 at 11 50 57_c6e16117](https://github.com/user-attachments/assets/d64ef8b0-1996-4c77-9562-926e8b4a71a6)
 
-## DATABASE
+## Database
 database name : db_eduskill
 ![image](https://github.com/user-attachments/assets/4047b44c-26e9-4bda-b1e6-4d8a734c39ea)
 
@@ -67,7 +67,7 @@ database name : db_eduskill
 ![file_2025-01-08_16 21 49 1](https://github.com/user-attachments/assets/ee7aaa97-d843-4768-8ee3-916fa24ba29b)
 
 
-## RELASI ANTAR TABLE DATABASE
+## Relasi antar table database
 
 ![image](https://github.com/user-attachments/assets/d8575bf0-5983-47e7-8efc-a619f06b8b57)
 
