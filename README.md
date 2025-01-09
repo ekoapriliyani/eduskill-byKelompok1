@@ -7,34 +7,14 @@ Anggota :
 - Didi Nugraha (312310530)
 - Rifqi Bayu (312310628)
   
-# Deskripsi Projek
-> Aplikasi Eduskill ini merupakan aplikasi yang  menyediakan berbagai macam kursus dan pelatihan online dalam berbagai bidang seperti teknologi informasi
-Fitur Utama Aplikasi EduSkill
+## Fitur Utama Aplikasi EduSkill
+  > Kursus
+  > Materi
+  > Kategori
+  > User
+  > Membuka file pdf
 
-
-> Kursus
-> Materi
-> Kategori
-> User
-
-# Aplikasi EduSkill
-Kelompok 1 (TI.23.B2) Rekayasa Perangkat Lunak
-Deskripsi Projek
-> Aplikasi Eduskill ini merupakan aplikasi yang  menyediakan berbagai macam kursus dan pelatihan online dalam berbagai bidang seperti teknologi informasi
-
-Fitur Utama Aplikasi EduSkill
-
-
-> Kursus
-> Materi
-> Kategori
-> User
-> Membuka file pdf
-
-I. Alasan mengapa menggunakan Agile Development dalam 
-Pengembanganya
-
-• Alasan :  
+## Alasan mengapa menggunakan Agile Development dalam Pengembanganya
 Metodologi Agile dipilih karena memberikan kerangka kerja yang fleksibel, responsif, 
 kolaboratif, dan efisien. Hal ini mendukung pengembangan fitur utama pada Eduskill, seperti 
 file course online yang interaktif, sehingga platform dapat menjawab tantangan kesenjangan 
@@ -73,17 +53,25 @@ meetings.
 yang terorganisir dan transparan.
 
 
+## CLASS DIAGRAM
 
+![WhatsApp Image 2025-01-09 at 11 50 57_c6e16117](https://github.com/user-attachments/assets/d64ef8b0-1996-4c77-9562-926e8b4a71a6)
 
-II . Buat Class Digram dan Databasenya
-Class Diagram : 
-1. Class tuser : untuk masuk (menu login). 
-2. Class tkursus 
-3. Class materi 
-4. Class kategori
-
+## RELASI ANTAR TABLE DATABASE
 
 ![image](https://github.com/user-attachments/assets/d8575bf0-5983-47e7-8efc-a619f06b8b57)
+
+## Instalasi
+- untuk menjalankan aplikasi ini silahkan _clone_ repositori berikut :
+```bash
+https://github.com/ekoapriliyani/eduskill-byKelompok1.git
+```
+
+- import database ```db_eduskill.sql``` ke phpmyadmin
+
+- pastikan direktori aplikasi berada di ```C:\xampp\htdocs```
+- buka browser, kunjungi URL ```localhost/eduskill-byKelompok1```
+
 
 
 
