@@ -1,4 +1,4 @@
-# Aplikasi EduSkill
+# Aplikasi EduSkill 
 Kelompok 1 (TI.23.B2) Rekayasa Perangkat Lunak
 Anggota :
 - Mei Rahmawati (312310056)
@@ -7,13 +7,6 @@ Anggota :
 - Didi Nugraha (312310530)
 - Rifqi Bayu (312310628)
   
-## Fitur Utama Aplikasi EduSkill
-  > Kursus
-  > Materi
-  > Kategori
-  > User
-  > Membuka file pdf
-
 ## Alasan mengapa menggunakan Agile Development dalam Pengembanganya
 Metodologi Agile dipilih karena memberikan kerangka kerja yang fleksibel, responsif, 
 kolaboratif, dan efisien. Hal ini mendukung pengembangan fitur utama pada Eduskill, seperti 
@@ -56,6 +49,23 @@ yang terorganisir dan transparan.
 ## CLASS DIAGRAM
 
 ![WhatsApp Image 2025-01-09 at 11 50 57_c6e16117](https://github.com/user-attachments/assets/d64ef8b0-1996-4c77-9562-926e8b4a71a6)
+
+## DATABASE
+database name : db_eduskill
+![image](https://github.com/user-attachments/assets/4047b44c-26e9-4bda-b1e6-4d8a734c39ea)
+
+table name : tkategori
+![image](https://github.com/user-attachments/assets/8936831a-10a0-4a4d-b04d-5ec506709c36)
+
+table name : tkursus
+![image](https://github.com/user-attachments/assets/fa858bbb-0600-47d7-b482-03c27d57fb4a)
+
+table name : tmateri
+![image](https://github.com/user-attachments/assets/538794f5-4e96-46a7-8345-98dcbdd30427)
+
+table name : tuser
+![image](https://github.com/user-attachments/assets/04315f83-d9d8-4e0d-a62c-1110d7491989)
+
 
 ## RELASI ANTAR TABLE DATABASE
 
