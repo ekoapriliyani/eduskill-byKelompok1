@@ -54,17 +54,17 @@ yang terorganisir dan transparan.
 database name : db_eduskill
 ![image](https://github.com/user-attachments/assets/4047b44c-26e9-4bda-b1e6-4d8a734c39ea)
 
-table name : tkategori
-![image](https://github.com/user-attachments/assets/8936831a-10a0-4a4d-b04d-5ec506709c36)
+1.table tuser :
+![file_2025-01-08_16 14 33 1](https://github.com/user-attachments/assets/fac6bbc7-cb6d-411d-9590-0c7ff4970254)
 
-table name : tkursus
-![image](https://github.com/user-attachments/assets/fa858bbb-0600-47d7-b482-03c27d57fb4a)
+2.table tkursus :
+![file_2025-01-08_16 17 03 1](https://github.com/user-attachments/assets/c379d27a-f0c5-4c24-93a7-db7ea50d1d27)
 
-table name : tmateri
-![image](https://github.com/user-attachments/assets/538794f5-4e96-46a7-8345-98dcbdd30427)
+3.table tmateri : 
+![file_2025-01-08_16 19 15 1](https://github.com/user-attachments/assets/74e4a447-b827-4e8b-97bd-194d1425504c)
 
-table name : tuser
-![image](https://github.com/user-attachments/assets/04315f83-d9d8-4e0d-a62c-1110d7491989)
+4.table tkategori :
+![file_2025-01-08_16 21 49 1](https://github.com/user-attachments/assets/ee7aaa97-d843-4768-8ee3-916fa24ba29b)
 
 
 ## RELASI ANTAR TABLE DATABASE
@@ -81,7 +81,3 @@ https://github.com/ekoapriliyani/eduskill-byKelompok1.git
 
 - pastikan direktori aplikasi berada di ```C:\xampp\htdocs```
 - buka browser, kunjungi URL ```localhost/eduskill-byKelompok1```
-
-
-
-
